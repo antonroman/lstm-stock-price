@@ -8,12 +8,12 @@ Initial version completely based on this tutorial: https://stackabuse.com/time-s
 This script receives as input two csv files and the name of the stock. The usage is as follows:
 
 ```bash
-lstm_stock_value_predictor.py -t <trainingfile> -i <testingfile> -n <stock name>`
+lstm_stock_value_predictor.py -t <trainingfile> -i <testingfile> -n <stock name>
 ```
 
-```-t --training```: name of the CSV file which contains the stock for a number of years (5 years seems to be a right value). This samples will be used to train the model.
-```-i --testing```: name of the CVS file used to test the model. We are going to predict the values for this month and check how similar the values are by plotting them in a graph. 
-```-n --name```:  name of the stock to be used in the graphs. 
+- ```-t --training```: name of the CSV file which contains the stock for a number of years (5 years seems to be a right value). This samples will be used to train the model.
+- ```-i --testing```: name of the CVS file used to test the model. We are going to predict the values for this month and check how similar the values are by plotting them in a graph. 
+- ```-n --name```:  name of the stock to be used in the graphs. 
 
 The result will be a graph comparing the predicted and the actual values.
 
@@ -41,5 +41,5 @@ The script is written in Python and it uses the following libraries:
 ```sudo apt install python3-numpy python3-pandas python3-keras python3-sklearn ```
 
 I installed Tensorflow using ```pip```:
-```sudo python3 -m pip install tensorflow```
 
+```sudo python3 -m pip install tensorflow```
