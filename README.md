@@ -18,7 +18,9 @@ lstm_stock_value_predictor.py -t <trainingfile> -i <testingfile> -n <stock name>
 The result will be a graph comparing the predicted and the actual values.
 
 ## How to get the stock CSV files
+
 The stock values were obtained from [Yahoo Finnance portal](https://finance.yahoo.com): .
+
 1. These are the steps you must follow to get the CSV files
 2. Go to https://finance.yahoo.com 
 3. Search for the symbol of the stock you want to predict.
@@ -30,15 +32,17 @@ The stock values were obtained from [Yahoo Finnance portal](https://finance.yaho
 ## Requiremets
 
 The script is written in Python and it uses the following libraries:
+
 - **Numpy**: for basic algebraic operations. 
 - **Pandas**: for data manipulation.
 - **Keras**: for the LSTM model.
 - **Tensorflow**: the machine learning engine used by Keras
 
 ### How to install the dependencies:
+
 **OS**: Ubuntu 18.04 LTS
 
-```sudo apt install python3-numpy python3-pandas python3-keras python3-sklearn ```
+```sudo apt install python3-numpy python3-pandas python3-keras python3-sklearn```
 
 I installed Tensorflow using ```pip```:
 
